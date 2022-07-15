@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;900&display=swap');
+
+:root {
+    --colorAmarillo: #EAC926;
+    --colorAzul: #03264C;
+    --colorCeleste: #1259c3;
+    --colorGrisOscuro: #666;
+    --colorGrisClaro: #ebebeb;
+    --colorVerde: #39b54a;
+
+    --textoSizeCuerpos: 12px;
+    --textoSizeTitulares: 24px;
+    --textoSizePrecios: 18px;
+    --textoSizeDescuentos: 16px;
+    --textoSizeDescripciones: 16px
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Roboto';
+}
+
+header{
+    background-color: var(--colorAmarillo)
+}
+
+.burger-menu{
+    text-align: center;
+    color: var(--colorGrisClaro);
+    background-color: var(--colorCeleste);
+    border-radius: 10%;
+    display: inline-block;
+    margin-bottom: 5%;
+    margin-left: 45%;
+    padding: 5px 8px;
+}
+
+.comprar{
+    text-align: center;
+}
+
+
+li{
+    list-style: none;
+}
+
+ul {
+    padding: 2px 2px 1px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.seccion-footer{
+    text-align: center;
+}
+
+section i{
+    color: var(--colorCeleste);
+    margin-bottom: 10px;
+    font-size: 2em;
+    margin-top: 20px;
+}
+
+.copyright{
+    margin-top: 20px;
+    text-align: left;
+}
+
+main{
+    text-align: center;
+    align-items: center;
+}
