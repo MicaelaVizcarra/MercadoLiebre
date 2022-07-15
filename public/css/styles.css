@@ -54,6 +54,7 @@ a{
 
 .seccion-footer{
     text-align: center;
+    font-size: var(--textoSizeCuerpos);
 }
 
 section i{
@@ -70,5 +71,53 @@ section i{
 
 main{
     text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
     align-items: center;
+    padding: 10px;
 }
+
+.articulo{
+    margin: 10px;
+}
+
+article div{
+    border-top: 1px solid var(--colorGrisClaro);
+    padding: 15px;
+}
+
+.fa-truck{
+    color: var(--colorVerde);
+    border-radius: 50%;
+    border: 1px solid var(--colorVerde);
+    padding: 10px;
+    font-size: small;
+}
+
+.precio{
+    font-size: var(--textoSizePrecios);
+}
+
+.descuento{
+    color:var(--colorVerde);
+    font-size: var(--textoSizeDescuentos);
+}
+
+.descripcion{
+    font-size: var(--textoSizeDescripciones);
+    color:var(--colorGrisOscuro);
+}
+
+h3{
+    font-size: var(--textoSizeTitulares);
+}
+
+@media (max-width: 361px){
+    .descripcion{display:none}
+    ul{display:none;}
+    }
+@media (max-width: 769px){
+    .articulo{box-shadow: 0px 0px 10px rgb(100, 100, 100);}
+    .fa-truck{display: none;}
+    }
